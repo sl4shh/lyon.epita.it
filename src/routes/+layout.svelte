@@ -21,7 +21,6 @@
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });*/
-	export const prerender = true;
 </script>
 
 <!-- App Shell -->
@@ -33,7 +32,7 @@
 				<a class="text-xl uppercase font-bold" href="https://lyon.epita.it">lyon.EPITA.it</a>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<a href="#!" class="[&>svg]:h-4 [&>svg]:w-4 btn variant-filled">
+				<a href="." class="[&>svg]:h-4 [&>svg]:w-4 btn variant-filled">
 					<span>Contribuez sur GitHub </span>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
