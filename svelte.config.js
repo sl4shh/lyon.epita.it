@@ -22,7 +22,7 @@ const config = {
 			strict: true,
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? "build" : "https://sl4shh.github.io/lyonepitait"
+			base: "https://sl4shh.github.io/lyonepitait"
 		}
 	}
 };
